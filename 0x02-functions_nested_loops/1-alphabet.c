@@ -11,6 +11,7 @@
 void print_alphabet(){
 
 	char c = 'a';
+
 	while (c <= 'z'){
 
 		_putchar(c);
