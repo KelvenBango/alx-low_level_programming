@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - entry point
- * Description: Prints the alphabet, in lowercase, followed by new line 
+ * Description: Prints the alphabet, in lowercase, followed by new line
  * Return: void
  */
 void print_alphabet(void)
