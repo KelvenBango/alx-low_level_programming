@@ -57,4 +57,4 @@ An introductory project on:
 
 * 103-fibonacci.c - finds and prints the sum of the even-valued terms in the Fibonacci sequence whose values do not exceed 4,000,000, followed by a new line. Allowed to use the standard library.
 
-* <a>104-fibonacci.c</a> - finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
+<a>104-fibonacci.c</a> - finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line. Allowed to use the standard library.
