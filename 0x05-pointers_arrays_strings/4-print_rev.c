@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- * print_rev -entry point
- * Description : function that prints a string, in reverse, followed by a new line.
- * Returns : void
- */
+*rev_string - a func that reverses a string
+*@s: pointer to string
+*/
 
 void print_rev(char *s)
 {
