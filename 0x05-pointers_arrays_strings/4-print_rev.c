@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
-*rev_string - a func that reverses a string
-*@s: pointer to string
-*/
+ * print_rev - prints a string in stdout in reverse
+ * @s: string to print
+ *
+ * Return: void
+ */
 
 void print_rev(char *s)
 {
