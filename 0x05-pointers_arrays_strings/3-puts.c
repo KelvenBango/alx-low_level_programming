@@ -1,9 +1,9 @@
 #include "main.h"
-
 /**
- * _puts - main entry
- * Description : function that prints a string, followed by a new line, to stdout.
- * Return : void
+ * _puts - prints a string in stdout
+ * @str: string to print
+ *
+ * Return: void
  */
 
 void _puts(char *str)
@@ -15,6 +15,7 @@ void _puts(char *str)
 
 	for (i = 0; i < len ; i++)
 	{
-		printf("%c", *(str + i));
+		_putchar(*(str + i));
 	}
+	_putchar('\n');
 }
