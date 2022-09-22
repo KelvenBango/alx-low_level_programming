@@ -1,4 +1,4 @@
-#include "min.h"
+#include "main.h"
 
 /**
  * print_line - prints a s bytes of a buffer
