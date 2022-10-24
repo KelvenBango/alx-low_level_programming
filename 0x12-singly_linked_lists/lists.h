@@ -1,7 +1,6 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef LISTS_
+#define LISTS_
 
-#define size_t int
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
