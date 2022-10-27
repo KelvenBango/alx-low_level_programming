@@ -5,6 +5,6 @@
 #include <stdlib.h>
 
 unsigned int binary_to_uint(const char *b);
-int strlen(const char *b);
+int strlength(const char *b);
 
 #endif
