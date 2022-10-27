@@ -9,7 +9,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int len = strlen(b);
+	int len = strlength(b);
 	unsigned int k = 1;
 	unsigned converted_num = 0;
 	int i;
@@ -28,12 +28,12 @@ unsigned int binary_to_uint(const char *b)
 }
 
 /**
- * strlen - finds the length of a string
+ * strlength - finds the length of a string
  * @b: string to find the length of
  *
  * Return: length of string
  */
-int strlen(const char *b)
+int strlength(const char *b)
 {
 	int i = 0;
 
