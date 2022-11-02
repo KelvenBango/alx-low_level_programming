@@ -13,10 +13,8 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 
-	size_t o_stat, r_stat, w_stat;
+	ssize_t o_stat, r_stat, w_stat;
 	char *buffer;
-
-	o_stat = open(filename, O_RDONLY);
 
 	if (filename == NULL)
 	{
@@ -32,6 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		exit(1);
 	}
 
+	o_stat = open(filename, O_RDONLY);
 	r_stat = read(o_stat, buffer, letters);
 	w_stat = write(STDOUT_FILENO, buffer, r_stat);
 
